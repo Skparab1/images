@@ -1,4 +1,4 @@
 # images
 a website for my photographs
 
-- needs more photos getting from phone
+- needs more photos getting from
