@@ -4,4 +4,4 @@ a website for my photographs
 
 - issue with object order
 - text is displayed before images
-- trying
+- trying figcap;tion
