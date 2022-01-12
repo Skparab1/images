@@ -5,4 +5,5 @@ a website for my photographs
 - issue with object order
 - text is displayed before images
 - trying figcaption with all images
-  - doesnt seem to 
+  - doesnt seem to work
+  - 
