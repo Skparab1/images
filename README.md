@@ -7,4 +7,4 @@ a website for my photographs
 - trying figcaption with all images
   - doesnt seem to work 
   - the order of objects is off
-  - it
+  - i
