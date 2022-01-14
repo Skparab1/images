@@ -8,4 +8,4 @@ a website for my photographs
   - doesnt seem to work 
   - the order of objects is off
   - tried figcaption but doesnt work
-  - text
+  - text is 
