@@ -7,5 +7,5 @@ a website for my photographs
 - trying figcaption with all images
   - doesnt seem to work 
   - the order of objects is off
-  - tried figcaption but doesnt work
+  - tried figcaption but doesnt work (only indents)
   - text is still displayed before images
