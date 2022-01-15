@@ -21,8 +21,31 @@
 </head>
 <body>
 
+    <canvas class="myCanvas">
+        <p>Add suitable fallback here.</p>
+      </canvas>
+
+    <script>
+
+        const canvas = document.querySelector('.myCanvas');
+        const width = canvas.width = window.innerWidth;
+        const height = canvas.height = window.innerHeight;
+        const ctx = canvas.getContext('2d');
+
+        ctx.fillStyle = 'rgb(255,255,0)';  
+
+        var img = new Image();
+        img.addEventListener('load', function() {
+            drawImage(img,200,200);
+        }, false);
+        img.src = 'images/IMG_2123.jpg';
+
+
+
+    </script>
+
 <h1 style="color:rgb(0, 0, 255);">This is an image</h1>
-<img src="images/IMG_2123.jpg" alt="orange sunset" style="width:33%">
+<!img src="images/IMG_2123.jpg" alt="orange sunset" style="width:33%">
 <img src="test.png" alt="screenshot"> 
 
 
