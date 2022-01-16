@@ -7,7 +7,7 @@ a website for my photographs
   - probably just subtitles or captions or image titles
   - and the preset conditions should be img=false
   - if the user enables it then we can pack &img=true into the url
-  - hmmmm
+  - hmmmm If the user is searching just images, then maybe display the thumbnails
 
 - issue with object order
 - text is displayed before images
