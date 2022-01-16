@@ -10,4 +10,4 @@ a website for my photographs
   - tried figcaption but doesnt work (only indents)
   - text is still displayed before images
   - tried using html canvas with js graphics
-  - doesn't work 
+  - doesn't work shows blank screen rip
