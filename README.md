@@ -8,8 +8,8 @@ a website for my photographs
   - and the preset conditions should be img=false
   - if the user enables it then we can pack &img=true into the url
   - hmmmm If the user is searching just images, then maybe display the thumbnails
-  - because the images website would be like "search for an image"
-  - 
+  - because the images website would be like "search for an image" and it would take you tot he search page
+  
 
 - issue with object order
 - text is displayed before images
