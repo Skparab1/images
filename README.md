@@ -4,7 +4,7 @@ a website for my photographs
   - probably not render photos 
     - would take too much time to load
   - maybe thumbnails using a large image cropped
-  - probably just subbtitles
+  - probably just subtitles or captions
 
 - issue with object order
 - text is displayed before images
