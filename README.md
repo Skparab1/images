@@ -5,7 +5,7 @@ a website for my photographs
     - would take too much time to load
   - maybe thumbnails using a large image cropped
   - probably just subtitles or captions or image titles
-  - and the preset conditions shou
+  - and the preset conditions should be img=false
 
 - issue with object order
 - text is displayed before images
