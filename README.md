@@ -3,6 +3,7 @@ a website for my photographs
 - can be searched for on my [search page](https://skparab1.github.io/search) (to be done)
   - probably not render photos 
     - would take too much time to load
+  - maybe thumbnails using a large image cropped
 
 - issue with object order
 - text is displayed before images
