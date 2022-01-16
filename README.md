@@ -6,7 +6,7 @@ a website for my photographs
   - maybe thumbnails using a large image cropped
   - probably just subtitles or captions or image titles
   - and the preset conditions should be img=false
-  - if the user enables it then we can pack &img=true
+  - if the user enables it then we can pack &img=true into the url
 
 - issue with object order
 - text is displayed before images
