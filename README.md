@@ -9,4 +9,4 @@ a website for my photographs
   - the order of objects is off
   - tried figcaption but doesnt work (only indents)
   - text is still displayed before images
-  - tried using html canvas
+  - tried using html canvas with js graphcis
