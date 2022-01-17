@@ -1,6 +1,6 @@
 # images
 a website for my photographs
-- can be searched for on my [search page](https://skparab1.github.io/search) (to be done)
+- can be searched for on my [search page](https://skparab1.github.io/search) (to be implemented)
   - probably not render photos 
     - would take too much time to load
   - maybe thumbnails using a large image cropped
