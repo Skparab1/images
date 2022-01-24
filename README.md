@@ -22,4 +22,3 @@ a website for my photographs
   - tried using html canvas with js graphics
   - doesn't work shows blank screen
 - rip ronak says no p5js
-- its ok
