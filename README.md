@@ -21,5 +21,5 @@ a website for my photographs
   - text is still displayed before images
   - tried using html canvas with js graphics
   - doesn't work shows blank screen
-- rip ronak says no p5js or canvas :(
+- rip ronak says no p5js or canvas
 - its ok then
