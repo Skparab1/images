@@ -21,4 +21,4 @@ a website for my photographs
   - text is still displayed before images
   - tried using html canvas with js graphics
   - doesn't work shows blank screen
-  - -
+  - 
