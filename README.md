@@ -16,7 +16,7 @@ a website for my photographs
 - text is displayed before images
 - trying figcaption with all images
   - doesnt seem to work 
-  - the order of objects is off
+  - the order of objects is incorrect
   - tried figcaption but doesnt work (only indents)
   - text is still displayed before images
   - tried using html canvas with js graphics
