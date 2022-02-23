@@ -3,7 +3,55 @@
 <head>
 <title>Skparab1 Images</title>
 <style>
-    body {background-color: rgb(0, 0, 0);}
+
+
+.button {
+        background-color: #6e6b67;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        width: 49%;
+        display: inline-block;
+        font-size: 16px;
+        transition: all 0.2s ease-in-out;
+        box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+        border-color: white;
+        border-width: 1px;
+        border-style: dotted;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background:#bbb;
+        color: black;
+        border-color: black;
+        border-width: 1px;
+        border-style: dotted;
+    }
+    h2{
+        font-size: 30px;
+        color: black;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 20px;
+        color: #7e7171;
+        text-align: center;
+    }
+
+    p {
+        color: #ffffff;
+    }
+
+    body {
+        background-image: url('images/gradient.png');
+        background-size: contain;
+        background-repeat: repeat-x;
+        background-color: rgb(0, 0, 0);
+    }
     img {
     width: 33%;
     padding: 14px 70px;
@@ -23,17 +71,6 @@
         margin-bottom: 50px;
         margin-right: 50px;
         margin-left: 50px;
-    }
-
-    .button{
-        margin-top: 200px;
-        margin-bottom: 200px;
-        margin-right: 10px;
-        margin-left: 10px;
-        padding-left: 200px;
-        padding-right: 200px;
-        padding-top: 10px;
-        padding-bottom: 10px;
     }
 
     ul {
@@ -78,6 +115,21 @@
 
 <h1 style="color:rgb(255, 166, 0);">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSkparab1 Images Gallery</h1>
 <!img src="images/IMG_2123.jpg" alt="orange sunset" style="width:33%">
+
+<div style="width: 100%;">
+    <div style="width: 50%; height: 210px; float: left; background: black;" class="center"> 
+        <img src="images/IMG_2123.jpg" alt="Skparab1 search" style="width: 66%;">
+        <a href="https://skparab1.github.io/images/gallery/images/IMG_2123.jpg"> 
+        <button type="button" class="button">View image</button> </a>
+        <a href="images/IMG_2123.jpg" download> 
+        <button type="button" class="button" >Download image</button>         </a>
+    </div>
+    <div style="margin-left: 50%; height: 215px; background: black;"> 
+        <img src="search.png" alt="Skparab1 search" style="width: 100%;">
+    </div>
+</div>
+
+<br><br><br><br><br><br>
 
 <img src="images/IMG_2123.jpg" alt="thing"> 
 <img src="images/IMG_2138.jpg" alt="thing"> 
