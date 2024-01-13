@@ -3,7 +3,9 @@
 <head>
 <title>Skparab1 Images</title>
 <style>
-    .button {
+
+
+.button {
         background-color: #6e6b67;
         border: none;
         color: white;
@@ -30,26 +32,45 @@
     }
     h2{
         font-size: 30px;
-        color: white;
+        color: black;
         text-align: center;
     }
-    h1{
-        font-size: 30px;
-        color: white;
+
+    h3{
+        font-size: 20px;
+        color: #7e7171;
         text-align: center;
     }
+
+    p {
+        color: #ffffff;
+    }
+
     body {
-        background-image: url('images/skparab1_images_00.jpg');
+        background-image: url('images/gradient.png');
         background-size: contain;
         background-repeat: repeat-x;
         background-color: rgb(0, 0, 0);
     }
-    .resize-best-fit{
-        background-size: contain;
+    img {
+    width: 33%;
+    padding: 14px 70px;
     }
-
-    .resize-height{
-        background-size: 150px Auto;
+    figure {
+    display: inline-block;
+    }
+    figcaption {
+        margin: 10px 0 0 0;
+        font-variant: small-caps;
+        font-family: Arial;
+        font-weight: bold;
+        color: #bb3333;
+    }
+    p {
+        margin-top: 50;
+        margin-bottom: 50px;
+        margin-right: 50px;
+        margin-left: 50px;
     }
 
     ul {
@@ -64,7 +85,7 @@
     }
     li a {
         display: block;
-        color: black;
+        color: rgb(255, 255, 255);
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -78,51 +99,151 @@
         background-color: #f78a41;
     }
 
-    img {
-    width: 1000%;
+    h2 {
+        color:rgb(225, 252, 240);
+        text-align: center;
+        padding: 0px;
     }
-    figure {
-    display: inline-block;
+    h3 {
+        color:rgb(179, 241, 170);
+        text-align: center;
     }
-    .crop {
-        width: 200px;
-        height: 150px;
-        overflow: hidden;
+
+    .flexrow {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 70px;
     }
-    figcaption {
-        margin: 10px 0 0 0;
-        font-variant: small-caps;
-        font-family: Arial;
-        font-weight: bold;
-        color: #bb3333;
+
+    .imageblock {
+        width: 49%;
+        float: left;
+        height: fit-content;
+        text-align: center;
     }
+
+    .imagedisp {
+        width: 66%;
+    }
+
 </style>
 </head>
 <body>
 
-<ul>
+<!-- <ul>
 <li><a href="https://skparab1.github.io/images">Home</a></li>
 <li><a href="https://skparab1.github.io/images/gallery">Gallery</a></li>
 <li><a href="https://skparab1.github.io/images/about">About</a></li>
-</ul> 
+</ul>  -->
 
-<h1>Skparab1 Images - Home</h1>
+<h1 style="color:rgb(255, 166, 0); text-align: center;">Skparab1 Images Gallery</h1>
 
-<div style="width: 100%; padding-top: 1000px;">
-    <h1>Golden Gate Bridge</h1>
-    <h2>📍San Francisco, California</h2>
+<div id="everything">
+
 </div>
 
-<br>
 
-<br>
-<a href="https://skparab1.github.io/images/gallery/images/skparab1_images_00.jpg"> 
-<button type="button" class="button">View image</button> </a>
-<a href="images/skparab1_images_00.jpg" download> 
-<button type="button" class="button" >Download image</button> </a>
-<a href="https://skparab1.github.io/images/gallery"> 
-<button type="button" class="button">View image gallery</button> </a>
-<a href="" download> 
-<button type="button" class="button" >Download webpage HTML</button> </a>
+<script>
+    let all = document.getElementById('everything');
+
+    let imagedata = [
+        ["Golden Gate Bridge","San Francisco, California"],
+        ["San Jose","Fremont Older, San Jose, California"],
+        ["Golden Gate Bridge","San Francisco, California"],
+        ["CA - 237", "Sunnyvale, California"],
+        ["Bay Bridge","San Francisco, California"],
+        ["Alcatraz Island","San Francisco, California"],
+        ["Steven's Canyon Road","San Jose, California"],
+        ["San Jose","Fremont Older, San Jose, California"],
+        ["Golden Gate Bridge","San Francisco, California"],
+        ["Baylands Park", "Sunnyvale, California"],
+        ["San Francisco","San Francisco, California"],
+        ["Marin Headlands","San Francisco, California"],
+        ["Downtown San Francisco","San Francisco, California"],
+        ["Caltrain service 656","San Francisco, California"],
+        ["San Francisco","San Francisco, California"],
+        ["Golden Gate Bridge","Fort Mason, San Francisco, California"],
+        ["Santa Cruz mountains","Fremont Older, San Jose, California"],
+        ["San Jose","Fremont Older, San Jose, California"],
+        ["Santa Cruz Mountains","Fremont Older, San Jose, California"],
+        ["Santa Cruz Mountains","Fremont Older, San Jose, California"],
+        ["Bay Bridge","San Francisco, California"],
+        ["Bay Bridge","San Francisco, California"],
+        ["Caltrain Sunnyvale Station","Sunnyvale, California"],
+        ["Caltrain Sunnyvale Station","Sunnyvale, California"],
+        ["Caltrain Track","Mountain View, California"],
+        ["Rivian R1t","San Francisco, California"],
+        ["San Francisco","San Francisco, California"],
+        ["Caltrain Sunnyvale Station","Sunnyvale, California"],
+        ["Caltrain San Francisco Station","San Francisco, California"],
+        ["Pacific Ocean","Golden Gate Bridge, San Francisco, California"],
+        ["Golden Gate Bridge","San Francisco, California"],
+        ["San Jose","Fremont Older, San Jose, California"],
+        ["Baylands Park", "Sunnyvale, California"],
+        ["Saratoga Trail", "Saratoga, California"],
+        ["Santa Cruz Mountains","San Jose, California"],
+        ["Pearson-Astracadero Preserve","Palo Alto, California"],
+        ["San Jose","Fremont Older, San Jose, California"],
+        ["San Jose","Fremont Older, San Jose, California"],
+        ["Mountains","Pleasanton, California"],
+        ["Santa Cruz Mountains","Fremont Older, San Jose, California"],
+        ["Pearson-Astracadero Preserve","Palo Alto, California"],
+        ["Moon","Planet Earth"],
+        ["Santa Cruz Mountains","Fremont Older, San Jose, California"],
+        ["Santa Cruz Mountains","Fremont Older, San Jose, California"],
+        ["Santa Cruz Mountains","Fremont Older, San Jose, California"],
+        ["Pearson-Astracadero Preserve","Palo Alto, California"],
+    ];
+
+
+    let i = 0;
+
+    while (i < imagedata.length){
+
+        let formattednum;
+
+        if (i < 10){
+            formattednum = "0"+String(i);
+        } else {
+            formattednum = String(i);
+        }
+
+        let formattednum2;
+
+        if (i+1 < 10){
+            formattednum2 = "0"+String(i+1);
+        } else {
+            formattednum2 = String(i+1);
+        }
+
+        all.innerHTML += `
+            <div class="flexrow">
+                <div class="imageblock"> 
+                    <img class="imagedisp" src="images/skparab1_images_${formattednum}.jpg" alt="${imagedata[i][0]}, ${imagedata[i][1]}">
+                    <h2>${imagedata[i][0]}</h2>
+                    <h3>📍${imagedata[i][1]}</h3>
+                    <a href="https://skparab1.github.io/images/gallery/images/skparab1_images_${formattednum}.jpg"> 
+                    <button type="button" class="button">View image</button> </a>
+                    <a href="images/skparab1_images_${formattednum}.jpg" download> 
+                    <button type="button" class="button" >Download image</button> </a>
+                </div>
+                <div class="imageblock"> 
+                    <img class="imagedisp" src="images/skparab1_images_${formattednum2}.jpg" alt="${imagedata[i+1][0]}, ${imagedata[i+1][1]}">
+                    <h2>${imagedata[i+1][0]}</h2>
+                    <h3>📍${imagedata[i+1][1]}</h3>
+                    <a href="https://skparab1.github.io/images/gallery/images/skparab1_images_${formattednum2}.jpg"> 
+                    <button type="button" class="button">View image</button> </a>
+                    <a href="images/skparab1_images_${formattednum2}.jpg" download> 
+                    <button type="button" class="button" >Download image</button> </a>
+                </div>
+            </div>
+        `;
+
+        i += 2;
+    }
+</script>
+
+
 </body>
 </html> 
